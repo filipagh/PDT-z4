@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  db:
+    image: postgis/postgis
+    shm_size: 1g
+    environment:
+      POSTGRES_PASSWORD: root
+#    volumes:
+#      - /games/ssd/pgdata/:/var/lib/postgresql/data
+#      - ./postgresql.conf:/var/lib/postgresql/data/postgresql.conf
+  mongo:
+    image: mongo
+    volumes:
+      - /games/ssd/mongo/:/data/db
+volumes:
+  pgdata:
