@@ -1,18 +1,20 @@
-###autor: Filip Agh
-###git: https://github.com/filipagh/PDT-z4
+### autor: Filip Agh
+### git: https://github.com/filipagh/PDT-z4
 
-#uloha 1
-###embeding
+# uloha 1
+
+### embeding
+
 hastagy tweetov si ulozim priamo v doc tweetu
 
 nema zmysel ich ukladat mimo na zaklade poziadaviek
 
-###referencie
+### referencie
 tweet bude mat referenciu na autora
 
 je zbytocne mat duplicitne vsetky udaje o autorovi v kazdom jeho tweete, nehovoriac o ich updatovani
 
-###account
+### account
 | \_id | description | followers\_count | friends\_count | id | name | screen\_name | statuses\_count |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 619a81cf59d694f699ad5f57 | Voice of Polish patriotic Biblical Christians. 100% independent viewer funded, uncensored news from Poland. #FollowJesus 🇵🇱🇺🇸🇮🇱 #KAG #PolesForTrump2020 | 5491 | 5510 | 950734466909200384 | Against the Tide \(Idź Pod Prąd\) TV | AgainstTideTV | 5118 |
