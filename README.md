@@ -1,11 +1,11 @@
 ###autor: Filip Agh
-###git: 
+###git: https://github.com/filipagh/PDT-z4
 
 #uloha 1
-###embeding 
+###embeding
 hastagy tweetov si ulozim priamo v doc tweetu
 
-nema zmysel ich ukladat mimo na zaklade poziadaviek 
+nema zmysel ich ukladat mimo na zaklade poziadaviek
 
 ###referencie
 tweet bude mat referenciu na autora
@@ -28,8 +28,10 @@ je zbytocne mat duplicitne vsetky udaje o autorovi v kazdom jeho tweete, nehovor
 
 
 
-#uloha 2 
-vid import_to_mongo.py
+#uloha 2
+vid py package
+
+importuju sa tweety a ucty
 
 #uloha 3
 
@@ -87,7 +89,7 @@ db.getSiblingDB("PDT").getCollection("tweets").aggregate([
 | 619a873e4375e678316114b7 | 619a86ff4375e678316113e7 | @TimothyMShrops1 @Truckerpea @DanielTurnerPTF @DavidJHarrisJr Timothy - Agenda 2030 explained in a 3 minute song I believe this is what the elite have planned for us all unless we wake up and resist - https://t.co/8F3GRJBy3e  #agenda21 #agenda2030 #coronavirus #event201 Plz Share | https://t.co/lIHnBiqfls<br/>https://t.co/HOA3RgtAc9… | 1107 | 957 | 2020-01-31T17:28:57.000Z | \["agenda2030", "agenda21", "coronavirus", "event201"\] | 1223297125322252289 | Martin Noakes | NULL | Marndin12 | 18755 |
 | 619a873d4375e678316114b5 | 619a86ff4375e678316113e7 | @nonsense\_planet Agenda 2030 explained in a 3 minute song I believe this is what the elite have planned for us all unless we wake up and resist - https://t.co/8F3GRJBy3e  #agenda21 #agenda2030 #coronavirus #event201 | https://t.co/lIHnBiqfls<br/>https://t.co/HOA3RgtAc9… | 1107 | 957 | 2020-01-31T17:19:03.000Z | \["agenda2030", "agenda21", "coronavirus", "event201"\] | 1223294637252710400 | Martin Noakes | NULL | Marndin12 | 18755 |
 
-#### cast B. 
+#### cast B.
 vstup
 
 | \_id | account\_id | content | happened\_at | hastagas | id | parent\_id |
@@ -97,7 +99,7 @@ vstup
 | 619a86eeea5f211bfedd9c22 | 619a86eeea5f211bfedd9c20 | RT @AgainstTideTV: This is a war, China's worse than Soviet Russia. #BoycottChina  and #MakeChinaPay #ChinaLiedPeopleDied - @SolomonYue @GO… | 2020-04-06T10:28:53.000Z | \["BoycottChina", "ChinaLiedPeopleDied", "MakeChinaPay"\] | 1247109014694932481 | 1246874043682299904 |
 
 
-query: 
+query:
 ```
 db.getSiblingDB("PDT").getCollection("tweets").aggregate([
        {
