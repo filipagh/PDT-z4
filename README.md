@@ -30,12 +30,12 @@ je zbytocne mat duplicitne vsetky udaje o autorovi v kazdom jeho tweete, nehovor
 
 
 
-#uloha 2
+# uloha 2
 vid py package
 
 importuju sa tweety a ucty
 
-#uloha 3
+# uloha 3
 
 #### cast A.
 
