@@ -24,4 +24,4 @@ if __name__ == "__main__":
 
 def insert_one(coll_name, doc):
     conn = get_database()[coll_name]
-    print(conn.insert_one(doc))
+    return conn.insert_one(doc)
