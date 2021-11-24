@@ -131,7 +131,6 @@ db.getSiblingDB("PDT").getCollection("tweets").aggregate([
          $limit: 10
        }
      ])
-[2021-11-21 23:58:40] 2 rows retrieved starting from 1 in 329 ms (execution: 315 ms, fetching: 14 ms)
 
 ```
 
